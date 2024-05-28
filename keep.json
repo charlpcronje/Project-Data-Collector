@@ -1,0 +1,259 @@
+keep
+
+    ``
+`json
+{
+    "project": {
+        "name": "Project Name",
+        "description": "A brief description of the project",
+        "version": "1.0.0",
+        "license": "MIT",
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/username/repo"
+        },
+        "dependencies": {
+            "python": [
+                "flask==2.0.1",
+                "requests>=2.25.1"
+            ],
+            "php": [
+                "laravel/framework@^8.0"
+            ],
+            "node": {
+                "dependencies": [
+                    "express@^4.17.1",
+                    "react@^17.0.2"
+                ],
+                "devDependencies": [
+                    "eslint@^7.32.0"
+                ]
+            }
+        },
+        "scripts": {
+            "start": "node app.js",
+            "test": "jest"
+        },
+        "build": {
+            "tool": "webpack",
+            "config_file": "webpack.config.js"
+        },
+        "environment": {
+            "variables": {
+                "NODE_ENV": "production",
+                "DATABASE_URL": "postgres://user:password@localhost:5432/dbname"
+            }
+        },
+        "documentation": {
+            "readme": "README.md",
+            "changelog": "CHANGELOG.md",
+            "contributing": "CONTRIBUTING.md"
+        },
+        "metadata": {
+            "created_at": "2023-01-01T12:00:00Z",
+            "updated_at": "2024-01-01T12:00:00Z"
+        },
+        "project_type": "node",
+        "framework": "express",
+        "entry_point": "src/index.js",
+        "deployment": {
+            "platform": "heroku",
+            "config_file": "Procfile"
+        },
+        "files": {
+            "counts": {
+                "excluding_ignored": {
+                    "total_files": 100,
+                    "total_lines_of_code": 5000
+                },
+                "including_ignored": {
+                    "total_files": 120,
+                    "total_lines_of_code": 5500
+                }
+            },
+            "extensions": {
+                ".js": {
+                    "count": 20,
+                    "last_created": "2024-05-01T12:00:00Z",
+                    "last_updated": "2024-05-25T12:00:00Z",
+                    "last_deleted": "2024-04-30T12:00:00Z"
+                },
+                ".html": {
+                    "count": 5,
+                    "last_created": "2024-05-10T12:00:00Z",
+                    "last_updated": "2024-05-20T12:00:00Z",
+                    "last_deleted": "2024-04-25T12:00:00Z"
+                }
+            },
+            "last_updated_file": {
+                "path": "src/app.js",
+                "timestamp": "2024-05-25T12:00:00Z"
+            },
+            "last_created_file": {
+                "path": "src/newFeature.js",
+                "timestamp": "2024-05-20T12:00:00Z"
+            },
+            "last_deleted_file": {
+                "path": "src/oldFeature.js",
+                "timestamp": "2024-04-30T12:00:00Z"
+            },
+            "lines_of_code": {
+                "JavaScript": 3000,
+                "HTML": 1000,
+                "CSS": 500,
+                "Python": 500
+            }
+        },
+        "additional_info": {
+            "last_commit_message": "Fixed bug in user authentication",
+            "last_commit_author": "Author Name",
+            "contributors": [
+                {
+                    "name": "Contributor One",
+                    "email": "contributor1@example.com",
+                    "commits": 30
+                },
+                {
+                    "name": "Contributor Two",
+                    "email": "contributor2@example.com",
+                    "commits": 25
+                }
+            ],
+            "open_issues": 10,
+            "closed_issues": 50,
+            "pull_requests": {
+                "open": 5,
+                "closed": 20,
+                "merged": 15
+            },
+            "ci_cd": {
+                "enabled": true,
+                "tool": "GitHub Actions",
+                "status": "passing"
+            },
+            "test_coverage": {
+                "percentage": 85,
+                "tool": "Jest"
+            },
+            "code_quality": {
+                "score": 95,
+                "tool": "SonarQube"
+            },
+            "security_vulnerabilities": {
+                "count": 0,
+                "last_scanned": "2024-05-25T12:00:00Z",
+                "tool": "Snyk"
+            }
+        },
+        "ignore_folders": {
+            "default_ignore": [
+                "node_modules",
+                "dist",
+                ".git",
+                "vendor"
+            ],
+            "custom_ignore": [
+                "logs",
+                "temp"
+            ],
+            "custom_include": [
+                "src/config",
+                "tests/e2e"
+            ]
+        },
+        "misc": {
+            "example_string": "example value",
+            "example_number": 12345,
+            "example_boolean": true,
+            "example_array": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "example_object": {
+                "key1": "value1",
+                "key2": "value2"
+            }
+        }
+    },
+    "additional_objects": {
+        "code_style": {
+            "formatting_tool": "Prettier",
+            "linting_tool": "ESLint",
+            "style_guide": "Airbnb"
+        },
+        "performance": {
+            "load_time": "2s",
+            "response_time": "150ms",
+            "requests_per_second": 1000
+        },
+        "seo": {
+            "keywords": [
+                "project",
+                "example",
+                "json"
+            ],
+            "meta_description": "An example project.json file for demonstration purposes."
+        },
+        "accessibility": {
+            "standards": "WCAG 2.1",
+            "compliance_level": "AA"
+        },
+        "localization": {
+            "default_language": "en",
+            "supported_languages": [
+                "en",
+                "es",
+                "fr",
+                "de"
+            ]
+        },
+        "analytics": {
+            "tracking_tool": "Google Analytics",
+            "reporting_frequency": "weekly"
+        },
+        "user_feedback": {
+            "survey_tool": "SurveyMonkey",
+            "feedback_frequency": "monthly"
+        },
+        "backup": {
+            "backup_frequency": "daily",
+            "backup_tool": "AWS S3"
+        },
+        "legal": {
+            "privacy_policy": "privacy_policy.md",
+            "terms_of_service": "terms_of_service.md"
+        },
+        "support": {
+            "support_email": "support@example.com",
+            "support_hours": "9am-5pm"
+        }
+    },
+    "author": {
+        "first_name": "Charl",
+        "last_name": "Cronje",
+    },
+}
+`
+``
+
+``
+`json
+"legal": {
+    "privacy_policy": "privacy_policy.md",
+    "terms_of_service": "terms_of_service.md"
+},
+"support": {
+    "support_email": "support@example.com",
+    "support_hours": "9am-5pm"
+},
+"authorcontact": {
+    "first_name": "Charl",
+    "last_name": "Cronje",
+    "linkedin": "https://www.linkedin.com/in/charlpcronje/",
+    "github": "https://github.com/charlpcronje/""twitter": "https://x.com/CPCharlCronje"
+}
+`
+``
